@@ -21,3 +21,8 @@ def position_taken?(board, index)
     return TRUE
   end
 end
+
+def move(array, index, value="X")
+  array[index] = value
+end
+
